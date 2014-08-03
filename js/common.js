@@ -4,6 +4,9 @@ $("#search input").val("更多的搜索，更好的结果  试一下");
 $("#search input").focus(function(){
 	if (document.cookie.indexOf("course")==-1) {
 		$("#course").css("display","block");
+		$("#favorite p").eq(0).css("display","block");
+		$("#favorite b").eq(0).css("display","block");
+		$("#favorite span").eq(0).css("display","block");
 		document.cookie="course=1";
 	};
 
@@ -15,9 +18,7 @@ $("#search input").focus(function(){
 		$("#search input").val("");
 		$("#favorite li").css("display","block"); 
 		$("#addFav").css("display","block"); 
-		$("#searchSupplier a").animate({height:"50px"});
-		$("#favorite li").eq(0).css("border","1px solid #213234");
-		$("#favorite a").eq(0).css("font-weight","bolder");
+
 		visted = 1;
 	};
 });
@@ -25,6 +26,9 @@ $("#search input").focus(function(){
 
 $(".course_close").click(function(){
 	$("#course").css("display","none");
+	$("#favorite p").eq(0).css("display","none");
+	$("#favorite b").eq(0).css("display","none");
+	$("#favorite span").eq(0).css("display","none");
 });
 
 
@@ -90,7 +94,6 @@ function addCommon (e) {
 		$("#favorite").lastChild("li").css("background","#ECF1E7");
 	};
 	$("#favorite").append("<div id=\"addFav\">+<\/div>");
-
 };
 
 for (var i = 0; i < commonA.length; i++) {
@@ -289,6 +292,8 @@ $(document).on("click","#beCommon img",function(){
 	$.each( searchName ,function  (key ,val) {
 			if (val==postName) {
 				addCommon(key);
+				$("#favorite li").css("display","block"); 
+				$("#addFav").css("display","block"); 
 				return;
 			};
 	});

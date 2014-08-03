@@ -340,8 +340,8 @@ html,body{
 	position: absolute;
 	z-index: 10000;
 	height: 20px;
-	width: 190px;
-	left: 25px;
+	width: 150px;
+	left: 95px;
 	border-radius: 3px 3px 3px 0px;
 	background: rgb(38,38,38);
 	bottom: 226px;
@@ -355,7 +355,7 @@ html,body{
 	line-height: 20px;
 	float: left;
 	display: block;
-	width: 160px;
+	width: 120px;
 	color: white;
 }
 .course_close{
