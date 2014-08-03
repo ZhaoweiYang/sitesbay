@@ -94,10 +94,10 @@ html,body{
 }
 #favorite{
 	width: inherit;
-	padding: 175px 0px 0px 0px;
+	padding: 150px 0px 0px 0px;
 	list-style: none;
 	margin: 0;
-	height: 75px;
+	height: 100px;
 	margin-left: -8px;
 	position: relative;
 }
@@ -108,7 +108,7 @@ html,body{
 	float: left;
 	height: 20px;
 	background: white;
-	margin: 8px;
+	margin: 40px 8px 8px 8px;
 	color: black;
 	padding: 10px;
 	line-height: 20px;
@@ -338,15 +338,17 @@ html,body{
 #course{
 	display: none;
 	position: absolute;
-	width: 190px;
+	z-index: 10000;
 	height: 20px;
+	width: 190px;
 	left: 25px;
 	border-radius: 3px 3px 3px 0px;
 	background: rgb(38,38,38);
-	bottom: 77px;
+	bottom: 226px;
 }
 .course_arrow{
 	margin-top: 20px;
+	float: left;
 	width: 10px;
 }
 #course b{
@@ -355,5 +357,11 @@ html,body{
 	display: block;
 	width: 160px;
 	color: white;
+}
+.course_close{
+	cursor: pointer;
+	float: left;
+	height: 20px;
+	background: rgb(193,193,193);
 }
 
