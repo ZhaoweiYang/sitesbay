@@ -307,9 +307,9 @@ html,body{
 	color: black;
 }
 #NewSites p{
-	float: left;
-	width: 382px;
-	margin: 0px 0px 10px 10px;
+	float: right;
+	width: 420px;
+	margin: 0px;
 }
 #beCommon{
 	position: absolute;

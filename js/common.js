@@ -82,7 +82,7 @@ function addCommon (e) {
 	$("#addFav").remove();
 	_siteIco = siteIco[e];
 	_searchName = searchName[e];
-	var searchModel = "<li><img src=\"img/siteIco/"+_siteIco+"\"> <a id=\"xiami\" href=\"\"  target=\"_blank\">"+_searchName+"<\/a><p></p><b></b><span>设为默认搜索</span><\/li>";
+	var searchModel = "<li><img src=\"img/siteIcon/"+_siteIco+"\"> <a id=\"xiami\" href=\"\"  target=\"_blank\">"+_searchName+"<\/a><p></p><b></b><span>设为默认搜索</span><\/li>";
 	$("#favorite").append(searchModel);
 
 
@@ -259,13 +259,14 @@ var commonName=new Array();
 function showRecommend (e) {
 	$("#NewSites li").remove();
 
-	var NewSitesModel = "<li><img class =\"siteIntroP\" src=\"\"><a href=\"\">Google<\/a><p>全球最大的搜索引擎<\/p><div id=\"beCommon\"><span>添加为常用网站<\/span><img src=\"img\/common\/plus.png\"><\/div><\/li>"
+	var NewSitesModel = "<li><img class =\"siteIntroP\" src=\"\"><a href=\"\" target=\"_blank\"><\/a><p><\/p><div id=\"beCommon\"><span>添加为常用网站<\/span><img src=\"img\/common\/plus.png\"><\/div><\/li>"
 	for (var i = 0; i < e.length; i++) {
 		var a = e[i];
 		$("#NewSites").append(NewSitesModel);
-		$(".siteIntroP:eq("+i+")").attr("src","img/siteIntro/"+siteIntro[a]);
+		$(".siteIntroP:eq("+i+")").attr("src","img/siteLogo/"+siteLogo[a]);
 		$("#NewSites p:eq("+i+")").text(siteSlogan[a]);
 		$("#NewSites a:eq("+i+")").text(searchName[a]);
+		$("#NewSites a:eq("+i+")").attr("href",url[a]);
 
 		var _index = $.inArray(searchName[a],commonName);
 		if (_index >= 0) {
