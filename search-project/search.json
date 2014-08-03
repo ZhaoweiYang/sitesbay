@@ -1,0 +1,604 @@
+// 0:不用转码 ，1：转码
+
+{
+	"student" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "wangyi.png",
+			"siteSlogan" : "传播属于全人类的知识和智慧",
+			"searchName" : "网易公开课",
+			"url" : "open.163.com",
+			"searchUrl" : "0c.open.163.com/search/search.htm?query="       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "wangyiyun.png",
+			"siteSlogan" : "一款大型在线教育平台服务",
+			"searchName" : "网易云课堂",
+			"url" : "study.163.com",
+			"searchUrl" : "0http://study.163.com/find.htm#/find/search?p="       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "hujiangenglish.png",
+			"siteSlogan" : "最具亲和力的免费英语学习网站",
+			"searchName" : "沪江英语",
+			"url" : "http://www.hjenglish.com/",
+			"searchUrl" : "0http://www.hjenglish.com/new/search/"       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "renren.png",
+			"siteSlogan" : "一个真实的社交网络，联络你和你周围的朋友",
+			"searchName" : "人人网",
+			"url" : "http://www.renren.com/",
+			"searchUrl" : ""       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "guokr.png",
+			"siteSlogan" : "果壳网 科技有意思",
+			"searchName" : "果壳网",
+			"url" : "http://www.guokr.com/",
+			"searchUrl" : "0http://www.guokr.com/search/all/?wd="       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "zhihu.png",
+			"siteSlogan" : "一个真实的网络问答社区",
+			"searchName" : "知乎",
+			"url" : "http://www.zhihu.com/",
+			"searchUrl" : "0http://www.zhihu.com/search?q="       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "youdao.png",
+			"siteSlogan" : "为您提供准确的在线词典、在线翻译、海量例句等",
+			"searchName" : "有道词典网页版",
+			"url" : "http://dict.youdao.com/",
+			"searchUrl" : "0http://dict.youdao.com/search?q= "       
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "daan.png",
+			"siteSlogan" : "最专业的课后习题答案分享社区!",
+			"searchName" : "答案网",
+			"url" : "http://www.daanwang.com/",
+			"searchUrl" : "1http://www.daanwang.com/so?wd="       
+		}
+	],
+	"music" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "baidumusic.png",
+			"siteSlogan" : "百度音乐-听到极致",
+			"searchName" : "百度音乐",
+			"url" : "http://music.baidu.com/",
+			"searchUrl" : "0http://music.baidu.com/search?key="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "wangyimusic.png",
+			"siteSlogan" : "网易云音乐 听见好时光",
+			"searchName" : "网易云音乐",
+			"url" : "http://music.163.com/",
+			"searchUrl" : "1http://music.163.com/#/search/m/?s="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "qqmusic.png",
+			"siteSlogan" : "QQ音乐-音乐你的生活！",
+			"searchName" : "QQ音乐",
+			"url" : "http://music.163.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "kuwomusic.png",
+			"siteSlogan" : "酷我音乐_最新最全的在线正版音乐网站",
+			"searchName" : "酷我音乐",
+			"url" : "http://www.kuwo.cn",
+			"searchUrl" : "0http://sou.kuwo.cn/ws/NSearch?type=all&key="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "doubanfm.png",
+			"siteSlogan" : "豆瓣FM - Beta",
+			"searchName" : "豆瓣FM",
+			"url" : "http://douban.fm/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "jingfm.png",
+			"siteSlogan" : "Jing+ Music",
+			"searchName" : "jing.fm",
+			"url" : "http://jing.fm/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "lizhi.png",
+			"siteSlogan" : "荔枝FM,人人都是主播_网络收音机|广播电台在线收听",
+			"searchName" : "荔枝fm",
+			"url" : "http://www.lizhi.fm/",
+			"searchUrl" : ""
+		}
+	],
+	"shopping" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "taobao.png",
+			"siteSlogan" : "淘！我喜欢",
+			"searchName" : "淘宝",
+			"url" : "http://www.taobao.com/",
+			"searchUrl" : "0http://s.taobao.com/search?q="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "tmall.png",
+			"siteSlogan" : "天猫tmall.com-尚天猫，就购了 ",
+			"searchName" : "天猫",
+			"url" : "http://www.tmall.com/",
+			"searchUrl" : "1http://list.tmall.com/search_product.htm?q="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "amazon.png",
+			"siteSlogan" : "亚马逊-网上购物商城：要网购, 就来Z.cn!",
+			"searchName" : "亚马逊",
+			"url" : "http://www.amazon.cn/",
+			"searchUrl" : "0http://www.amazon.cn/s/url=search-alias%3Daps&field-keywords="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "jingdong.png",
+			"siteSlogan" : "京东网上商城-综合网购首选",
+			"searchName" : "京东",
+			"url" : "http://www.jd.com/",
+			"searchUrl" : "1http://search.jd.com/Search?keyword="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "dangdang.png",
+			"siteSlogan" : "当当网—网上购物中心",
+			"searchName" : "当当",
+			"url" : "http://www.dangdang.com/",
+			"searchUrl" : "1http://search.dangdang.com/?key="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "yihaodian.png",
+			"siteSlogan" : "网上超市1号店，省力省钱省时间",
+			"searchName" : "一号店",
+			"url" : "http://www.yhd.com/",
+			"searchUrl" : "0http://search.yhd.com/s2/c0-0/k"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "weipinhui.png",
+			"siteSlogan" : "一家专门做特卖的网站",
+			"searchName" : "唯品会",
+			"url" : "http://www.vip.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "smzdm.png",
+			"siteSlogan" : "高性价比网购产品推荐_国内促销_海淘特价_商家优惠券",
+			"searchName" : "什么值得买",
+			"url" : "http://www.smzdm.com/",
+			"searchUrl" : "0http://www.smzdm.com/?s="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "jumei.jpg",
+			"siteSlogan" : "聚美优品美妆商城",
+			"searchName" : "聚美优品",
+			"url" : "http://mall.jumei.com/",
+			"searchUrl" : "0http://search.jumei.com/?filter=0-11-1&search="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "meituan.png",
+			"siteSlogan" : "好口碑放心团",
+			"searchName" : "美团",
+			"url" : "meituan.com",
+			"searchUrl" : "0http://cd.meituan.com/s/"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "nuomi.png",
+			"siteSlogan" : "省钱更省心",
+			"searchName" : "糯米",
+			"url" : "nuomi.com",
+			"searchUrl" : "0http://www.nuomi.com/search?k="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "dazhongdianping.png",
+			"siteSlogan" : "大众点评网_美食，生活，优惠券，团购",
+			"searchName" : "大众点评",
+			"url" : "http://www.dianping.com/",
+			"searchUrl" : ""
+		}
+	],
+	"gamelover" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "pcgames.png",
+			"siteSlogan" : "太平洋游戏网_竞技游戏第一门户",
+			"searchName" : "太平洋游戏网",
+			"url" : "http://www.pcgames.com.cn/",
+			"searchUrl" : "1http://ks.pcgames.com.cn/?q="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "duowan.png",
+			"siteSlogan" : "多玩游戏多交朋友",
+			"searchName" : "多玩",
+			"url" : "http://www.duowan.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "17173.png",
+			"siteSlogan" : "中国游戏第一门户",
+			"searchName" : "17173",
+			"url" : "http://www.17173.com/",
+			"searchUrl" : "0http://search.17173.com/jsp/news_press.jsp?keyword="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "178.png",
+			"siteSlogan" : "一起把游戏进行到底",
+			"searchName" : "178",
+			"url" : "http://178.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "dianwanbus.gif",
+			"siteSlogan" : "电视游戏第一门户",
+			"searchName" : "电玩巴士",
+			"url" : "http://www.tgbus.com/",
+			"searchUrl" : "0http://s.tgbus.com/q?k="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "youxia.gif",
+			"siteSlogan" : "中国唯一的单机游戏门户",
+			"searchName" : "游侠网",
+			"url" : "http://www.ali213.net/",
+			"searchUrl" : "0http://so.ali213.net/search.asp?form_type=0&keyword="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "4399_logo.gif",
+			"siteSlogan" : "中国最大的游戏平台",
+			"searchName" : "4399",
+			"url" : "http://www.4399.com/",
+			"searchUrl" : "0http://so2.4399.com/search/search.php?k="
+		}
+	],
+	"travel" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "quanr.png",
+			"siteSlogan" : "聪明你的旅行",
+			"searchName" : "去哪儿",
+			"url" : "http://www.qunar.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "xiecheng.png",
+			"siteSlogan" : "携程旅游",
+			"searchName" : "携程旅游",
+			"url" : "http://vacations.ctrip.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "lvmama.png",
+			"siteSlogan" : "中国自助游领军品牌",
+			"searchName" : "驴妈妈",
+			"url" : "http://www.lvmama.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "tuniu.gif",
+			"siteSlogan" : "途牛旅游网",
+			"searchName" : "途牛",
+			"url" : "http://www.tuniu.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "mafengwo.png",
+			"siteSlogan" : "旅游社交分享网站",
+			"searchName" : "马蜂窝",
+			"url" : "http://www.mafengwo.cn/",
+			"searchUrl" : "0http://www.mafengwo.cn/group/s.php?q="
+		}
+	],
+	"vedio" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "souhuvideo.gif",
+			"siteSlogan" : "搜狐视频",
+			"searchName" : "搜狐视频",
+			"url" : "http://tv.sohu.com/",
+			"searchUrl" : "0http://so.tv.sohu.com/mts?box=1&wd="
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "iqiyi.png",
+			"siteSlogan" : "高清影视剧在线观看",
+			"searchName" : "爱奇艺",
+			"url" : "http://www.iqiyi.com/",
+			"searchUrl" : "0http://so.iqiyi.com/so/q_"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "tudou.png",
+			"siteSlogan" : "每个人都是生活的导演",
+			"searchName" : "土豆",
+			"url" : "http://www.tudou.com/",
+			"searchUrl" : "0http://www.soku.com/t/nisearch/"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "yklogo.png",
+			"siteSlogan" : "中国第一视频网站",
+			"searchName" : "优酷",
+			"url" : "http://www.youku.com/",
+			"searchUrl" : "0http://www.soku.com/search_video/q_"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "pptv.png",
+			"siteSlogan" : "pptv聚力",
+			"searchName" : "pptv",
+			"url" : "http://www.pptv.com/",
+			"searchUrl" : "http://search.pptv.com/s_video/q_"
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "",
+			"siteSlogan" : "电影下载高清首发",
+			"searchName" : "电影天堂",
+			"url" : "http://www.dy2018.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "mianbao.png",
+			"siteSlogan" : "最新电视剧，2014最新电影，好看的电视剧免费在线观看",
+			"searchName" : "面包网",
+			"url" : "http://www.mianbao.com/",
+			"searchUrl" : ""
+		}
+	],
+	"sports" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "sinasport.png",
+			"siteSlogan" : "新浪竞技风暴",
+			"searchName" : "新浪竞技风暴",
+			"url" : "http://sports.sina.com.cn/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "wangyisport.png",
+			"siteSlogan" : "有态度的体育门户",
+			"searchName" : "网易体育",
+			"url" : "http://sports.163.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "souhusport.gif",
+			"siteSlogan" : "搜狐体育",
+			"searchName" : "搜狐体育",
+			"url" : "http://sports.sohu.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "tengxunsport.png",
+			"siteSlogan" : "人气最旺的体育门户",
+			"searchName" : "腾讯体育",
+			"url" : "http://sports.qq.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "",
+			"siteLogo" : "nba.gif",
+			"siteSlogan" : "NBA中国官方网站",
+			"searchName" : "NBA中国官方网站",
+			"url" : "http://china.nba.com/",
+			"searchUrl" : ""
+		}
+	],
+	"designer" : [
+		{
+			"siteIco" : "",
+			"siteLogo" : "pinterest.png",
+			"siteSlogan" : "设计师灵感的来源",
+			"searchName" : "pinterest",
+			"url" : "https://www.pinterest.com/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "icon_behance.png",
+			"siteLogo" : "behance.png",
+			"siteSlogan" : "Online Portfolios on Behance",
+			"searchName" : "behance",
+			"url" : "www.behance.net",
+			"searchUrl" : "0https://www.behance.net/search?search="
+		},
+		{
+			"siteIco" : "icon_dribble.png",
+			"siteLogo" : "dribble.gif",
+			"siteSlogan" : "show and tell for designers",
+			"searchName" : "dribble",
+			"url" : "dribbble.com",
+			"searchUrl" : "0https://dribbble.com/search?q="
+		},
+		{
+			"siteIco" : "icon_huanban.png",
+			"siteLogo" : "huaban.png",
+			"siteSlogan" : "图片社交领导者",
+			"searchName" : "花瓣",
+			"url" : "http://huaban.com/",
+			"searchUrl" : "0http://huaban.com/search/?q="
+		}
+	],
+	"readlover" : [
+		{
+			"siteIco" : "icon_doubanread.png",
+			"siteLogo" : "doubanread.png",
+			"siteSlogan" : "豆瓣读书",
+			"searchName" : "豆瓣读书",
+			"url" : "http://book.douban.com/",
+			"searchUrl" : "0http://book.douban.com/subject_search?search_text="
+		},
+		{
+			"siteIco" : "icon_qidian.png",
+			"siteLogo" : "qidian.png",
+			"siteSlogan" : "读书在起点创作无极限",
+			"searchName" : "起点中文网",
+			"url" : "http://www.qidian.com",
+			"searchUrl" : "0http://sosu.qidian.com/searchresult.aspx?keyword="
+		},
+		{
+			"siteIco" : "icon_zongheng.png",
+			"siteLogo" : "zongheng.gif",
+			"siteSlogan" : "有趣，有品，有爱",
+			"searchName" : "纵横中文网",
+			"url" : "http://www.zongheng.com/",
+			"searchUrl" : ""
+		}
+	],
+	"webser" : [
+		{
+			"siteIco" : "icon_ifanr.png",
+			"siteLogo" : "ifanr.png",
+			"siteSlogan" : "Beats of bit",
+			"searchName" : "ifanr",
+			"url" : "http://www.ifanr.com/",
+			"searchUrl" : "0http://cn.bing.com/search?q=site:www.ifanr.com%20"
+		},
+		{
+			"siteIco" : "icon_36kr.png",
+			"siteLogo" : "36kr.png",
+			"siteSlogan" : "关注互联网创业",
+			"searchName" : "36kr",
+			"url" : "http://www.36kr.com/",
+			"searchUrl" : "0http://www.36kr.com/search?q="
+		},
+		{
+			"siteIco" : "icon_pingwest.png",
+			"siteLogo" : "pingwest.png",
+			"siteSlogan" : "全球视野的前沿科技媒体",
+			"searchName" : "pingwest",
+			"url" : "http://www.pingwest.com/",
+			"searchUrl" : "0http://www.pingwest.com/?s="
+		}
+	],
+	"dongman" : [
+		{
+			"siteIco" : "icon_bilibili.png",
+			"siteLogo" : "bilibili.png",
+			"siteSlogan" : "bilibili",
+			"searchName" : "哔哩哔哩",
+			"url" : "http://www.bilibili.com/",
+			"searchUrl" : "0http://www.bilibili.com/search?keyword="
+		},
+		{
+			"siteIco" : "icon_bcy.png",
+			"siteLogo" : "bcy.png",
+			"siteSlogan" : "发现你身边的同好",
+			"searchName" : "半次元",
+			"url" : "http://bcy.net/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "icon_nico.png",
+			"siteLogo" : "nico.png",
+			"siteSlogan" : "niconico",
+			"searchName" : "nico动画",
+			"url" : "http://www.nicovideo.jp/",
+			"searchUrl" : ""
+		},
+		{
+			"siteIco" : "icon_acfun.png",
+			"siteLogo" : "acfun.png",
+			"siteSlogan" : "中国宅文化基地",
+			"searchName" : "Acfun",
+			"url" : "http://www.acfun.tv/",
+			"searchUrl" : "0http://www.acfun.tv/search.aspx?query="
+		}
+	],
+	"程序猿"  : [
+		{
+			"siteIco" : "icon_csdn.png",
+			"siteLogo" : "csdn.png",
+			"siteSlogan" : "全球最大中文IT社区",
+			"searchName" : "CSDN",
+			"url" : "http://www.csdn.net/",
+			"searchUrl" : "0http://so.csdn.net/so/search/s.do?q="
+		},
+		{
+			"siteIco" : "icon_51.png",
+			"siteLogo" : "51.jpg",
+			"siteSlogan" : "技术成就梦想",
+			"searchName" : "51CTO",
+			"url" : "http://www.51cto.com/",
+			"searchUrl" : "1http://www.51cto.com/php/search.php?q="
+		},
+		{
+			"siteIco" : "icon_cnblog.png",
+			"siteLogo" : "cnblog.gif",
+			"siteSlogan" : "代码改变世界",
+			"searchName" : "博客园",
+			"url" : "http://www.cnblogs.com/",
+			"searchUrl" : "0http://zzk.cnblogs.com/s?t=b&w="
+		},
+		{
+			"siteIco" : "icon_stack.png",
+			"siteLogo" : "stack.png",
+			"siteSlogan" : "stackoverflow",
+			"searchName" : "stackoverflow",
+			"url" : "http://stackoverflow.com/",
+			"searchUrl" : "0http://stackoverflow.com/search?q="
+		},
+		{
+			"siteIco" : "icon_github.png",
+			"siteLogo" : "github.png",
+			"siteSlogan" : "Github",
+			"searchName" : "Github",
+			"url" : "github.com",
+			"searchUrl" : "github.com/search?q="
+		},
+		{
+			"siteIco" : "icon_oschina.png",
+			"siteLogo" : "oschina.png",
+			"siteSlogan" : "找到您想要的开源项目分享和交流",
+			"searchName" : "开源中国",
+			"url" : "http://www.oschina.net/",
+			"searchUrl" : "ww.oschina.net/search?scope=all&q="
+		},
+		{
+			"siteIco" : "icon_cocoa.png",
+			"siteLogo" : "cocoa.png",
+			"siteSlogan" : "最热的iphone开发社区",
+			"searchName" : "cocoaChina",
+			"url" : "http://www.cocoachina.com/",
+			"searchUrl" : "http://www.cocoachina.com/cms/plus/search.php?kwtype=0&searchtype=titlekeyword&keyword="
+		}
+	]
+}
