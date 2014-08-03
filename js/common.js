@@ -1,17 +1,37 @@
 
 var visted = 0;
+$("#search input").val("更多的搜索，更好的结果  试一下");
 $("#search input").focus(function(){
+	if (document.cookie.indexOf("course")==-1) {
+		$("#course").css("display","block");
+		document.cookie="course=1";
+	};
+
 	if (visted==0) {
+		if (document.cookie.indexOf("first")==-1) {
+			$("#course").css("display","block");
+			document.cookie="first=1"
+		};
+		$("#search input").val("");
 		$("#favorite li").css("display","block"); 
+		$("#addFav").css("display","block"); 
 		$("#searchSupplier a").animate({height:"50px"});
+		$("#favorite li").eq(0).css("border","1px solid #213234");
+		$("#favorite a").eq(0).css("font-weight","bolder");
 		visted = 1;
 	};
+});
+
+
+$(".course_close").click(function(){
+	$("#course").css("display","none");
 });
 
 
 // 选择角色-开始
 
 var defaultSearch =0;
+
 
 var roleArray = [0];
 for (var i = 0; i < $("#welcome li").length; i++) {
@@ -84,11 +104,14 @@ $("#addFav").click(function(){
 $("#common").on("click","#favorite span",function(){
 	event.stopPropagation();
 	defaultSearch = $(this).parent("#favorite li").index();
-
+	$("#favorite li").css("border","0px solid #213234");
+	$(this).parent().css("border","1px solid #213234");
 	$("#searchBar").text($(this).siblings("a").text());
 	$(this).css("color","red");
 	$(this).css("color","green");
 	$(this).css("display","none");
+	$("#favorite a").css("font-weight","normal");
+	$(this).siblings("a").css("font-weight","bolder");
 	$(this).siblings("b").css("display","none");
 
 });
@@ -163,12 +186,12 @@ $("#search input").keypress(function (e) {
 		window.open(searchUrl[defaultSearch]+$("#search input").val(), "_blank");
 	}
 });
-$("#searchBar").click(function(){
-	if ($("#search input").val()=="") {
-		return;
-	};
-	window.open(searchUrl[defaultSearch]+$("#search input").val(), "_blank");
-})
+// $("#searchBar").click(function(){
+// 	if ($("#search input").val()=="") {
+// 		return;
+// 	};
+// 	window.open(searchUrl[defaultSearch]+$("#search input").val(), "_blank");
+// })
 // 常用-结束
 
 
@@ -270,8 +293,6 @@ $(document).on("click","#beCommon img",function(){
 			};
 	});
 });
-
-
 
 $("#roleBox h3").click(function(){
 	showRecommend(all);
