@@ -101,6 +101,7 @@ html,body{
 }
 
 #favorite li,#addFav{
+	display: none;
 	position: relative;
 	float: left;
 	height: 20px;

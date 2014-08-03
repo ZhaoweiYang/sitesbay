@@ -1,4 +1,12 @@
 
+var visted = 0;
+$("#search input").focus(function(){
+	if (visted==0) {
+		$("#favorite li").css("display","block"); 
+		$("#searchSupplier a").animate({height:"50px"});
+		visted = 1;
+	};
+});
 
 
 // 选择角色-开始
