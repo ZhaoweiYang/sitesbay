@@ -106,7 +106,6 @@ $("#addFav").click(function(){
 
 $("#common").on("click","#favorite span",function(){
 	event.stopPropagation();
-	defaultSearch = $(this).parent("#favorite li").index();
 	$("#favorite li").css("border","0px solid #213234");
 	$(this).parent().css("border","1px solid #213234");
 	$("#searchBar").text($(this).siblings("a").text());
@@ -116,6 +115,13 @@ $("#common").on("click","#favorite span",function(){
 	$("#favorite a").css("font-weight","normal");
 	$(this).siblings("a").css("font-weight","bolder");
 	$(this).siblings("b").css("display","none");
+	var a = $(this).siblings("a").text();
+	for (var i = 0; i < searchName.length; i++) {
+		if (searchName[i]==a) {
+			defaultSearch = i;
+			return;
+		};
+	};
 
 });
 $(document).on("click","#favorite li",function(){
