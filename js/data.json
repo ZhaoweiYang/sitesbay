@@ -5,7 +5,7 @@ var data = [
 			"siteLogo" : "wangyiopen.png",
 			"siteSlogan" : "传播属于全人类的知识和智慧",
 			"searchName" : "网易公开课",
-			"url" : "open.163.com",
+			"url" : "http://open.163.com",
 			"searchUrl" : "0http://c.open.163.com/search/search.htm?query="       
 		},
 		{
@@ -52,7 +52,7 @@ var data = [
 			"siteIco" : "icon_youdao.png",
 			"siteLogo" : "youdao.png",
 			"siteSlogan" : "为您提供准确的在线词典、在线翻译、海量例句等",
-			"searchName" : "有道词典网页版",
+			"searchName" : "有道词典",
 			"url" : "http://dict.youdao.com/",
 			"searchUrl" : "0http://dict.youdao.com/search?q= "       
 		},
@@ -350,7 +350,7 @@ var data = [
 			"searchUrl" : "0http://www.soku.com/t/nisearch/"
 		},
 		{
-			"siteIco" : "",
+			"siteIco" : "icon_youku.png",
 			"siteLogo" : "yklogo.png",
 			"siteSlogan" : "中国第一视频网站",
 			"searchName" : "优酷",
@@ -444,7 +444,7 @@ var data = [
 			"siteLogo" : "dribble.gif",
 			"siteSlogan" : "show and tell for designers",
 			"searchName" : "dribble",
-			"url" : "dribbble.com",
+			"url" : "https://dribbble.com",
 			"searchUrl" : "0https://dribbble.com/search?q="
 		},
 		{
@@ -463,6 +463,14 @@ var data = [
 			"searchName" : "豆瓣读书",
 			"url" : "http://book.douban.com/",
 			"searchUrl" : "0http://book.douban.com/subject_search?search_text="
+		},
+		{
+			"siteIco" : "icon_doubanmovie.png",
+			"siteLogo" : "doubanmovie.png",
+			"siteSlogan" : "国内电影评分最权威的地方",
+			"searchName" : "豆瓣电影",
+			"url" : "http://movie.douban.com/",
+			"searchUrl" : "0http://movie.douban.com/subject_search?search_text="
 		},
 		{
 			"siteIco" : "icon_qidian.png",
@@ -576,8 +584,8 @@ var data = [
 			"siteLogo" : "github.png",
 			"siteSlogan" : "Github",
 			"searchName" : "Github",
-			"url" : "github.com",
-			"searchUrl" : "github.com/search?q="
+			"url" : "http://github.com",
+			"searchUrl" : "0http://github.com/search?q="
 		},
 		{
 			"siteIco" : "icon_oschina.png",
@@ -585,7 +593,7 @@ var data = [
 			"siteSlogan" : "找到您想要的开源项目分享和交流",
 			"searchName" : "开源中国",
 			"url" : "http://www.oschina.net/",
-			"searchUrl" : "ww.oschina.net/search?scope=all&q="
+			"searchUrl" : "0http://www.oschina.net/search?scope=all&q="
 		},
 		{
 			"siteIco" : "icon_cocoa.png",
@@ -593,6 +601,38 @@ var data = [
 			"siteSlogan" : "最热的iphone开发社区",
 			"searchName" : "cocoaChina",
 			"url" : "http://www.cocoachina.com/",
-			"searchUrl" : "http://www.cocoachina.com/cms/plus/search.php?kwtype=0&searchtype=titlekeyword&keyword="
+			"searchUrl" : "0http://www.cocoachina.com/cms/plus/search.php?kwtype=0&searchtype=titlekeyword&keyword="
+		},
+		{
+			"siteIco" : "icon_baidu.png",
+			"siteLogo" : "baidu.png",
+			"siteSlogan" : "全球最大的中文搜素引擎",
+			"searchName" : "百度",
+			"url" : "http://www.baidu.com/",
+			"searchUrl" : "0http://www.baidu.com/s?wd="	
+		},
+		{
+			"siteIco" : "icon_weibo.png",
+			"siteLogo" : "weibo.png",
+			"siteSlogan" : "随时随地发现新鲜事",
+			"searchName" : "微博",
+			"url" : "http://www.weibo.com/",
+			"searchUrl" : "0http://s.weibo.com/weibo/"	
+		},
+		{
+			"siteIco" : "icon_baidu.png",
+			"siteLogo" : "baidutuan.png",
+			"siteSlogan" : "国内最具权威的团购导航网站，已经聚合美团、糯米等",
+			"searchName" : "百度团购",
+			"url" : "http://tuan.baidu.com/",
+			"searchUrl" : "0http://tuan.baidu.com/search/?wd="	
+		},
+		{
+			"siteIco" : "icon_yinyuetai.png",
+			"siteLogo" : "yinyuetai.png",
+			"siteSlogan" : "最棒的MV高清视频网站",
+			"searchName" : "音悦台",
+			"url" : "http://www.yinyuetai.com/",
+			"searchUrl" : "0http://so.yinyuetai.com/mv?keyword="	
 		}
 ]

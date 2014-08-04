@@ -17,7 +17,15 @@ for (var i = 0; i < data.length; i++) {
 
 // 这是常用栏目
 var commonA = [];
-var commonUrl = ["http://www.gu1234.com/","http://www.cnblogs.com/"];
+var commonUrl = [
+"http://www.gu1234.com/",
+"http://www.baidu.com/",
+"http://www.zhihu.com/",
+"http://music.163.com/",
+"http://www.youku.com/",
+"http://www.weibo.com/",
+"http://huaban.com/"
+];
 
 for (var i = 0; i < commonUrl.length; i++) {
 	for (var j = 0; j < url.length; j++) {
@@ -29,7 +37,14 @@ for (var i = 0; i < commonUrl.length; i++) {
 
 // 这是导航栏里面的综合，注意：必须searchUrl要不为空且不存在编码问题
 var all = [];
-var allUrl = ["http://sports.qq.com/"];
+var allUrl = [
+"http://movie.douban.com/",
+"http://open.163.com",
+"http://www.guokr.com/",
+"http://www.taobao.com/",
+"http://tuan.baidu.com/",
+"http://www.yinyuetai.com/"
+];
 
 for (var i = 0; i < allUrl.length; i++) {
 	for (var j = 0; j < url.length; j++) {

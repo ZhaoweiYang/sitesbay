@@ -36,41 +36,41 @@ $(".course_close").click(function(){
 
 // 选择角色-开始
 
-var defaultSearch =0;
+var defaultSearch =40;
 
 
-var roleArray = [0];
-for (var i = 0; i < $("#welcome li").length; i++) {
-	roleArray[i]=0;
-};
-$("#welcome li").click(function () {
+// var roleArray = [0];
+// for (var i = 0; i < $("#welcome li").length; i++) {
+// 	roleArray[i]=0;
+// };
+// $("#welcome li").click(function () {
 
-	var roleIndex = $(this).index();
-	console.log(roleIndex);
-	if (roleArray[roleIndex]==0) {
-		roleArray[roleIndex]=1;
-		$(this).children("p").css("background","rgb(57,111,234)");
-		$(this).children("p").css("color","white");
-		$("#welcome span").css("display","none");
-	}else{
-		$(this).children("p").css("background","white");
-		$(this).children("p").css("color","black");
-		roleArray[roleIndex]=0;
-	};
-});
+// 	var roleIndex = $(this).index();
+// 	console.log(roleIndex);
+// 	if (roleArray[roleIndex]==0) {
+// 		roleArray[roleIndex]=1;
+// 		$(this).children("p").css("background","rgb(57,111,234)");
+// 		$(this).children("p").css("color","white");
+// 		$("#welcome span").css("display","none");
+// 	}else{
+// 		$(this).children("p").css("background","white");
+// 		$(this).children("p").css("color","black");
+// 		roleArray[roleIndex]=0;
+// 	};
+// // });
 
-$("#welcome div").click(function(){
-	var roleNum = 0;
-	for (var i = 0; i < roleArray.length; i++) {
-		roleNum = roleNum + roleArray[i];
-	};
-	if (roleNum) {
-		$("#welcome").css("display","none");
-	}else{
-		$("#welcome span").css("display","block");
-		return;
-	};
-});
+// $("#welcome div").click(function(){
+// 	var roleNum = 0;
+// 	for (var i = 0; i < roleArray.length; i++) {
+// 		roleNum = roleNum + roleArray[i];
+// 	};
+// 	if (roleNum) {
+// 		$("#welcome").css("display","none");
+// 	}else{
+// 		$("#welcome span").css("display","block");
+// 		return;
+// 	};
+// });
 // 选择角色-结束
 
 
@@ -243,7 +243,11 @@ for (var i = 0; i < roleNameA.length; i++) {
 $("#roleBox").append("<li id=\"addRole\">+</li>");
 
 $("#addRole").click(function(){
-	$("#welcome").css("display","block");
+	$("#addRole").text("此功能开发中，即将上线");
+	setTimeout(function(){
+		$("#addRole").text("+");
+	},2000)
+	// $("#welcome").css("display","block");
 });
 
 var mainClass = ["推荐","旅行","健身","电视剧"];
@@ -348,6 +352,6 @@ $("li[name='music']").click(function(){
 
 // 推荐-结束
 
-if ($("#class li").length) {
-	$("#welcome").css("display","none");
-};
+// if ($("#class li").length) {
+// 	$("#welcome").css("display","none");
+// };

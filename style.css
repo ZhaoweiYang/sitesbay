@@ -11,7 +11,7 @@ html,body{
 	border: 1px solid black;
 }
 
-#welcome{
+/*#welcome{
 	position: fixed;
 	top: 70px;
 	width: 500px;
@@ -21,8 +21,8 @@ html,body{
 	width: 1024px;
 	color: white;
 	text-align: center;
-}
-#welcome h2{
+}*/
+/*#welcome h2{
 	background: white;
 	margin: 0;
 	color: rgb(40,40,40);
@@ -32,13 +32,13 @@ html,body{
 	padding-left: 20px;
 	font-size: 20px;
 	font-weight: 100;
-}
-#welcome ul{
+}*/
+/*#welcome ul{
 	list-style: none;
 	padding: 0;
 	height: 300px;
-}
-#welcome li{
+}*/
+/*#welcome li{
 	width: 215px;
 	float: left;
 	height: 86px;
@@ -47,8 +47,8 @@ html,body{
 	line-height: 50px;
 	cursor: pointer;
 	background: white;
-	color: black;
-}
+	color: black;*/
+/*}
 #welcome div{
 	cursor: pointer;
 	height: 60px;
@@ -76,7 +76,7 @@ html,body{
 	height: 85px;
 	width: 85px;
 	float: left;
-}
+}*/
 #common{
 	position: fixed;
 	height: 400px;
@@ -97,9 +97,10 @@ html,body{
 	padding: 150px 0px 0px 0px;
 	list-style: none;
 	margin: 0;
-	height: 100px;
+	height: auto;
 	margin-left: -8px;
-	position: relative;
+	position: absolute;
+	bottom: 140px;
 }
 
 #favorite li,#addFav{
@@ -108,7 +109,7 @@ html,body{
 	float: left;
 	height: 20px;
 	background: white;
-	margin: 40px 8px 8px 8px;
+	margin: 15px 8px 8px 8px;
 	color: black;
 	padding: 10px;
 	line-height: 20px;
@@ -170,7 +171,7 @@ html,body{
 	/* padding-top: 100px; */
 /*	border-top: 60px solid white;
 	border-bottom: 60px solid white;*/
-}*/
+/*}*/
 /*
 #addFavBox div{
 	cursor: pointer;
@@ -201,8 +202,10 @@ html,body{
 }
 #search{
 	width: inherit;
+	position: absolute;
 	height: 35px;
 	background: white;
+	bottom: 100px;
 }
 #search input{
 	width: 80%;
@@ -237,7 +240,10 @@ html,body{
 	list-style: none;
 	background: rgba(224,224,224,0.6);
 	border-top: 3px solid #999;
-	margin-top: 70px;	
+	margin-top: 0px;	
+	position: fixed;
+	top: 350px;
+	width: 1024px;
 }
 
 #roleBox h3 , #roleBox li{
@@ -289,7 +295,6 @@ html,body{
 	border-radius: 3px;
 	margin: 10px;
 	list-style: none;
-	cursor: pointer;
 	position: relative;
 }
 #NewSites img{
@@ -356,7 +361,7 @@ html,body{
 	left: 95px;
 	border-radius: 3px 3px 3px 0px;
 	background: rgb(38,38,38);
-	bottom: 226px;
+	bottom: 200px;
 }
 #nosearch{
 	display: none;
