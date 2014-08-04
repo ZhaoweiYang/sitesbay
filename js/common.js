@@ -1,6 +1,8 @@
 
 var visted = 0;
-$("#search input").val("更多的搜索，更好的结果  试一下");
+if (document.cookie.indexOf("course")==-1){
+	$("#search input").val("更多的搜索，更好的结果  试一下");
+};
 $("#search input").focus(function(){
 	if (document.cookie.indexOf("course")==-1) {
 		$("#course").css("display","block");
@@ -95,7 +97,18 @@ function addCommon (e) {
 
 	};
 	$("#favorite").append("<div id=\"addFav\">+<\/div>");
+	var nosearch = 0 ;
+	if ((searchUrl[e]=="")&&(document.cookie.indexOf("nosearch")==-1)&&nosearch==0) {
+		$("#favorite li").eq($("#favorite li").length-1).append("<div id=\"nosearch\" style=\"display: block;\"><img class=\"course_arrow\" src=\"img/common/course_arrow.png\" style=\"height: 4px;\"><b>这类网站不能搜索</b><img id=\"nosearch_close\" src=\"img/common/close.png\" style=\"cursor: pointer;\"></div>");
+		// console.log("这个网站不能搜索");
+		document.cookie="nosearch=1";
+		nosearch = 1;
+	};
 };
+$("#favorite").on("click","#nosearch_close",function(){
+	event.stopPropagation();
+	$("#nosearch").css("display","none");
+});
 
 for (var i = 0; i < commonA.length; i++) {
 	addCommon(commonA[i]);
@@ -162,6 +175,9 @@ $("#common").on("click","#favorite b",function(){
 $("#common").on("mouseover","#favorite li",function(){
 
 	$(this).children("p").css("display","block");
+	if ($(this).css("background-color")=="rgb(236, 241, 231)") {
+		$(this).children("b").css("display","block");
+	};
 });
 $("#common").on("mouseout","#favorite li",function(){
 
@@ -169,6 +185,9 @@ $("#common").on("mouseout","#favorite li",function(){
 
 	// $(this).children("span").css("display","none");
 	$(this).children("p").css("display","none");
+	if ($(this).css("background-color")=="rgb(236, 241, 231)") {
+		$(this).children("b").css("display","none");
+	};
 	// $(this).children("b").css("display","none");
 	// $(this).children("span").css("display","none");
 });

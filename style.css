@@ -346,19 +346,30 @@ html,body{
 	background: rgb(38,38,38);
 	bottom: 226px;
 }
+#nosearch{
+	display: none;
+	position: absolute;
+	z-index: 10000;
+	height: 20px;
+	width: 150px;
+	left: 40px;
+	border-radius: 3px 3px 3px 0px;
+	background: rgb(38,38,38);
+	top: -35px;
+}
 .course_arrow{
 	margin-top: 20px;
 	float: left;
 	width: 10px;
 }
-#course b{
+#course b,#nosearch b{
 	line-height: 20px;
 	float: left;
 	display: block;
 	width: 120px;
 	color: white;
 }
-.course_close{
+.course_close,#nosearch_close{
 	cursor: pointer;
 	float: left;
 	height: 20px;
