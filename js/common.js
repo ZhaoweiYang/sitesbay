@@ -105,7 +105,7 @@ function addCommon (e) {
 		nosearch = 1;
 	};
 };
-$("#favorite").on("click","#nosearch_close",function(){
+$("#favorite").on("click","#nosearch_close",function(event){
 	event.stopPropagation();
 	$("#nosearch").css("display","none");
 });
@@ -118,7 +118,7 @@ for (var i = 0; i < commonA.length; i++) {
 // 	$("#recommendSite").css("display","block");
 // });
 
-$("#common").on("click","#favorite span",function(){
+$("#common").on("click","#favorite span",function(event){
 	event.stopPropagation();
 	$("#favorite li").css("border","0px solid #213234");
 	$(this).parent().css("border","1px solid #213234");
@@ -157,12 +157,12 @@ $(document).on("click","#favorite li",function(){
 	};
 });
 
-$("#common").on("mouseover","#favorite b",function(){
+$("#common").on("mouseover","#favorite b",function(event){
 	event.stopPropagation();
 
 	$(this).siblings("span").text("从常用栏移除");
 });
-$("#common").on("mouseout","#favorite b",function(){
+$("#common").on("mouseout","#favorite b",function(event){
 	event.stopPropagation();
 
 	$(this).siblings("span").text("设为默认搜索");
@@ -179,7 +179,7 @@ $("#common").on("mouseover","#favorite li",function(){
 		$(this).children("b").css("display","block");
 	};
 });
-$("#common").on("mouseout","#favorite li",function(){
+$("#common").on("mouseout","#favorite li",function(event){
 
 	event.stopPropagation();
 
