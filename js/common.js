@@ -19,7 +19,7 @@ $("#search input").focus(function(){
 		};
 		$("#search input").val("");
 		$("#favorite li").css("display","block"); 
-		$("#addFav").css("display","block"); 
+		// $("#addFav").css("display","block"); 
 
 		visted = 1;
 	};
@@ -81,7 +81,7 @@ $("#welcome div").click(function(){
 
 
 function addCommon (e) {
-	$("#addFav").remove();
+	// $("#addFav").remove();
 	_siteIco = siteIco[e];
 	_searchName = searchName[e];
 	var searchModel = "<li><img src=\"img/siteIcon/"+_siteIco+"\"> <a id=\"xiami\" href=\"\"  target=\"_blank\">"+_searchName+"<\/a><p></p><b></b><span>设为默认搜索</span><\/li>";
@@ -114,9 +114,9 @@ for (var i = 0; i < commonA.length; i++) {
 	addCommon(commonA[i]);
 };
 
-$("#addFav").click(function(){
-	$("#recommendSite").css("display","block");
-});
+// $("#addFav").click(function(){
+// 	$("#recommendSite").css("display","block");
+// });
 
 $("#common").on("click","#favorite span",function(){
 	event.stopPropagation();
@@ -326,7 +326,7 @@ $(document).on("click","#beCommon img",function(){
 			if (val==postName) {
 				addCommon(key);
 				$("#favorite li").css("display","block"); 
-				$("#addFav").css("display","block"); 
+				// $("#addFav").css("display","block"); 
 				return;
 			};
 	});

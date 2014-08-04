@@ -284,7 +284,7 @@ html,body{
 #NewSites li{
 	float: left;
 	width: 492px;
-	height: 60px;
+	height: 80px;
 	background: white;
 	border-radius: 3px;
 	margin: 10px;
@@ -293,9 +293,10 @@ html,body{
 	position: relative;
 }
 #NewSites img{
-	height: 60px;
+	height: 80px;
 	float: left;
-	width: 60px;
+	width: 80px;
+	margin-left: 6px;
 }
 #NewSites a{
 	float: left;
@@ -306,16 +307,19 @@ html,body{
 	margin: 10px 0px 10px 10px;
 	color: black;
 }
+#NewSites a:hover{
+	color: rgb(60,103,238);
+}
 #NewSites p{
 	float: right;
-	width: 420px;
-	margin: 0px;
+	width: 391px;
+	margin-top: 12px;
 }
 #beCommon{
 	position: absolute;
 	top: 8px;
 	right: 10px;
-	width: 115px;
+	width: 120px;
 	height: 20px;
 }
 #beCommon img{
@@ -330,9 +334,17 @@ html,body{
 	line-height: 22px;
 }
 #switch{
+	background: antiquewhite;
+	/*background-image: url(img/common/photo-corner-sw.png)no-repeat ;*/
+	width: 111px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+
 	position: absolute;
 	right: 0;
-	bottom: 34px;
+	bottom: 63px;
 	cursor: pointer;
 }
 #course{
