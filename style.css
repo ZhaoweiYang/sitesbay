@@ -302,6 +302,7 @@ html,body{
 	float: left;
 	width: 80px;
 	margin-left: 6px;
+	cursor: pointer;
 }
 #NewSites a{
 	float: left;
