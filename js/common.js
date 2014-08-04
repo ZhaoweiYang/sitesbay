@@ -89,9 +89,10 @@ function addCommon (e) {
 	// $("#favorite a:eq("+key+")").text(searchName[key]);
 	// $("#favorite img:eq("+key+")").attr("src","img/siteIco/"+siteIco[key]);
 	if (searchUrl[e]=="") {
-		$("#favorite").lastChild("span").remove();
-		$("#favorite").lastChild("p").remove();
-		$("#favorite").lastChild("li").css("background","#ECF1E7");
+		$("#favorite span").eq($("#favorite span").length-1).remove();
+		$("#favorite p").eq($("#favorite p").length-1).remove();
+		$("#favorite li").eq($("#favorite li").length-1).css("background","#ECF1E7");
+
 	};
 	$("#favorite").append("<div id=\"addFav\">+<\/div>");
 };
@@ -125,7 +126,13 @@ $("#common").on("click","#favorite span",function(){
 
 });
 $(document).on("click","#favorite li",function(){
-	var a = $(this).index();
+	var a;
+	for (var i = 0; i < searchName.length; i++) {
+		if ($(this).children("a").text() == searchName[i]) {
+			a=i;
+		};
+	};
+	
 	var _keyWord= $("#search input").val();
 	if ((searchUrl[a]=="")||(_keyWord=="")) {
         window.open(url[a],'_blank');  
