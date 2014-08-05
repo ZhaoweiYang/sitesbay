@@ -4,15 +4,15 @@ if (document.cookie.indexOf("course")==-1){
 	$("#search input").val("更多的搜索，更好的结果  试一下");
 };
 $("#search input").focus(function(){
-	if (document.cookie.indexOf("course")==-1) {
-		$("#course").css("display","block");
-		$("#favorite p").eq(0).css("display","block");
+	if (document.cookie.indexOf("course")==-1) {     //判断是否首次登录且没看过教学
+		$("#course").css("display","block");          //显示引导教学
+		$("#favorite p").eq(0).css("opacity","1");
 		$("#favorite b").eq(0).css("display","block");
 		$("#favorite span").eq(0).css("display","block");
-		document.cookie="course=1";
+		document.cookie="course=1";          //添加已浏览过的标识符
 	};
 
-	if (visted==0) {
+	if (visted==0) {                   //是否是刚打开网页
 		if (document.cookie.indexOf("first")==-1) {
 			$("#course").css("display","block");
 			document.cookie="first=1"
@@ -26,9 +26,9 @@ $("#search input").focus(function(){
 });
 
 
-$(".course_close").click(function(){
+$(".course_close").click(function(){               //点击浮标，去除设为默认的导航
 	$("#course").css("display","none");
-	$("#favorite p").eq(0).css("display","none");
+	$("#favorite p").eq(0).css("opacity","0");
 	$("#favorite b").eq(0).css("display","none");
 	$("#favorite span").eq(0).css("display","none");
 });
@@ -105,7 +105,7 @@ function addCommon (e) {
 		nosearch = 1;
 	};
 };
-$("#favorite").on("click","#nosearch_close",function(event){
+$("#favorite").on("click","#nosearch_close",function(){
 	event.stopPropagation();
 	$("#nosearch").css("display","none");
 });
@@ -162,7 +162,7 @@ $("#common").on("mouseover","#favorite b",function(event){
 
 	$(this).siblings("span").text("从常用栏移除");
 });
-$("#common").on("mouseout","#favorite b",function(event){
+$("#common").on("mouseout","#favorite b",function(){
 	event.stopPropagation();
 
 	$(this).siblings("span").text("设为默认搜索");
@@ -174,7 +174,8 @@ $("#common").on("click","#favorite b",function(){
 
 $("#common").on("mouseover","#favorite li",function(){
 
-	$(this).children("p").css("display","block");
+	// $(this).children("p").css("display","block");
+	$(this).children("p").css("opacity" , "1");
 	if ($(this).css("background-color")=="rgb(236, 241, 231)") {
 		$(this).children("b").css("display","block");
 	};
@@ -184,7 +185,8 @@ $("#common").on("mouseout","#favorite li",function(event){
 	event.stopPropagation();
 
 	// $(this).children("span").css("display","none");
-	$(this).children("p").css("display","none");
+	// $(this).children("p").css("display","none");
+	$(this).children("p").css("opacity","0");
 	if ($(this).css("background-color")=="rgb(236, 241, 231)") {
 		$(this).children("b").css("display","none");
 	};
@@ -265,16 +267,16 @@ $("#roleBox").children().click(function(){
 });
 
 $("#switch").click(function(){
-	if ($("#roleBox").css('display') == "none") {
+	if ($("#roleBox").css('opacity') == "0") {
 		$(this).text("收起导航");
-		$("#roleBox").css("display","block");
-		$("#recommendSite").css("display","block");
+		$("#roleBox").css("opacity","1");
+		$("#recommendSite").css("opacity","1");
 		return;
 	};
-	if ($("#roleBox").css('display') == "block") {
+	if ($("#roleBox").css('opacity') == "1") {
 		$(this).text("展开导航");
-		$("#roleBox").css("display","none");
-		$("#recommendSite").css("display","none");
+		$("#roleBox").css("opacity","0");
+		$("#recommendSite").css("opacity","0");
 		return;
 	};
 	

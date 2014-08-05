@@ -86,7 +86,9 @@ html,body{
 }
 #recommendSite{
 	position: absolute;
-	display: none;
+	/*display: none;*/
+	opacity:0;
+	transition: 0.5s;
 	top: 400px;
 	width: inherit;
 	height: auto;
@@ -142,8 +144,10 @@ html,body{
 	margin: 0;
 	width: 20px;
 	height: 20px;
-	display: none;
+	/*display: none;*/
 	background: url(img/common/arrow-right.png);
+	opacity: 0;
+	transition:0.3s ease-in;
 }
 #favorite span{
 	color: red;
@@ -235,7 +239,9 @@ html,body{
 #roleBox{
 	height: 40px;
 	margin: 0;
-	display: none;
+	/*display: none;*/
+	opacity: 0;
+	transition: 0.5s;
 	padding: 0;
 	list-style: none;
 	background: rgba(224,224,224,0.6);
